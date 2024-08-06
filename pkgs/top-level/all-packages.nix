@@ -40094,4 +40094,6 @@ with pkgs;
   dillo = callPackage ../by-name/di/dillo/package.nix {
     fltk = fltk13;
   };
+
+  yp-tools = callPackage ../os-specific/linux/yp-tools { };
 }
